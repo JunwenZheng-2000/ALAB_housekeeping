@@ -38,7 +38,7 @@ First, ssh into the pi. Ask one of the grad students for the IP address. Navigat
 `ALAB_housekeeping/MKS_gauge` folder. Then, run the following command.
 ```python3 MKS2database.py```
 
-This will prompt you for a port and a gauge address. The port can be found by trial and error. The gauge address is currently 001. 
+This will prompt you for a port and a gauge address. The port can be found by trial and error. The gauge address is currently 001. For the cold cathode gauge, the address is 002. 
 The correct database to pipe to is ```bench_test```. The correct table is ```CPS_testing```.
 
 <h3>RTDs vis MHADC board</h3>
